@@ -1,0 +1,18 @@
+#container {
+  width:100%
+  float: left;
+}
+
+#map {
+  height: 400px;
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+#about {
+  height: 400px;
+  width: 50%;
+  margin: 0;
+  float: left;
+}
