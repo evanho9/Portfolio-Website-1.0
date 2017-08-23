@@ -4,33 +4,34 @@
     <meta name='viewport' content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <title>evanho9-Home</title>
   </head>
   <body>
-    <h1>Evan Ho</h1>
+    <div id="header">
+      <center>Evan Ho</center>
+    </div>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="skills.html">Skills/Interests</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact Information</a></li>
+      </ul>
+    </nav>
     <div id="container">
       <div id="about">
         <h2>About</h2>
-        <p>sup my dudes</p>
+        <p>Hello world!<br> My name is Evan and I am currently studying computer science at San Jose State University.
+        I enjoy programming along with my musical pastimes. I'm always looking for new opportunities and ways to further my
+        knowledge and skills.</p>
+        <a href="https://www.facebook.com/evan.ho.7"><img src="facebook.png"></a>
+        <a href="https://github.com/evanho9"><img src="github.png" height="150px" width="150px"></a>
       </div>
-      <div id="map"></div>
-      <div style="clear: both;" > </div>
+      <div id="profpicture">
+        <img src="profile.jpg" width="50%" height="400px">
+      </div>
+
     </div>
-    <script>
-      var pos = {lat:37.3960419,lng:-121.84762410000002};
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: pos,
-          zoom: 14
-        });
-      var marker = new google.maps.Marker({
-          position: pos,
-          map: map
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBbuI1NNN2gwj9tWgJ9RqjNbxczam9BGA&callback=initMap"
-    async defer></script>"
   </body>
 </html>

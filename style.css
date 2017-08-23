@@ -1,6 +1,58 @@
+html {
+  border: 2px solid #333;
+  font-family: 'Concert One', cursive, serif;
+}
+
+#header {
+  font-size: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10%;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #111;
+}
+
+#profpicture img {
+  border-radius: 50%;
+  width:40%;
+  height: 40%;
+  float: left;
+  display: block;
+}
+
 #container {
+  padding-top: 15px;
+  height: 400px;
   width:100%
   float: left;
+  background-color: white;
+  color: #333;
+  font-size: 20px;
 }
 
 #map {
@@ -11,6 +63,24 @@
 }
 
 #about {
+  height: 400px;
+  width: 50%;
+  margin: 0;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+}
+
+#interests {
+  font-size: 20px;
+  height: 400px;
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+#skills {
+  font-size: 20px;
   height: 400px;
   width: 50%;
   margin: 0;
