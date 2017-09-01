@@ -1,28 +1,61 @@
 html {
-  font-family: 'Concert One', cursive, serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: white;
   color: black;
 }
 
+#hcontainer {
+  left: 0;
+  top: 0;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  margin: 0 0;
+  position: fixed;
+}
+
+#blink {
+  width: 10%;
+  float: left;
+  margin: 0 0;
+  height: 100%;
+}
+
 #header {
-  font-size: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 40%;
+  height: 100%;
+  float: left;
+  display: flex
+}
+
+#header h1 {
+  margin: 0 0;
+  margin-left: 10px;
+}
+
+nav {
+  width: 50%;
+  height: 100%;
+  float: left;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: white;
   color: black;
-  border: 1px solid black;
+  margin: 0 0;
+  height: 100%;
 }
 
 nav ul li {
   float: left;
   width: 25%;
+  height: 100%;
   font-size: 20px;
   color: black;
 }
@@ -31,7 +64,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10%;
+  padding: 5%;
   text-decoration: none;
   color: black;
 }
@@ -39,11 +72,13 @@ nav li a {
 li a:hover {
   background-color: black;
   color: white;
+  height: 100%;
 }
 
 .active {
   background-color: black;
   color: white;
+  height: 100%;
 }
 
 #profpicture img {
@@ -56,7 +91,7 @@ li a:hover {
 }
 
 #container {
-  padding-top: 15px;
+  padding-top: 60px;
   height: 400px;
   width:100%
   float: left;
@@ -72,7 +107,7 @@ li a:hover {
 }
 
 #about {
-  height: 400px;
+  height: 10000px;
   width: 50%;
   margin: 0;
   float: left;
