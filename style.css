@@ -4,6 +4,11 @@ html {
   color: black;
 }
 
+body {
+  height: 100%;
+  margin: 0 0;
+}
+
 #hcontainer {
   left: 0;
   top: 0;
@@ -40,7 +45,7 @@ html {
 nav {
   width: 50%;
   height: 100%;
-  float: left;
+  float: right;
 }
 
 nav ul {
@@ -94,7 +99,6 @@ li a:hover {
 img {
     max-width: 100%;
     max-height: 100%;
-
 }
 
 #profpicture img {
@@ -131,6 +135,10 @@ img {
   text-align: left;
 }
 
+#about h1,p {
+  margin-left: 10px;
+}
+
 #clickables img {
   margin: 10% 5%;
 }
@@ -152,6 +160,10 @@ img {
   color: white;
 }
 
+#projects h1,p {
+  margin-left: 10px;
+}
+
 #skills {
   height: 600px;
   width: 100%;
@@ -159,4 +171,8 @@ img {
   float: left;
   background-color: white;
   color: black;
+}
+
+#skills h1,p {
+    margin-left: 10px;
 }
