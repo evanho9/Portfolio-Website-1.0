@@ -122,7 +122,7 @@ img {
 #map {
   height: 700px;
   width: 50%;
-  margin: 0;
+  margin-top: 5%;
   float: left;
 }
 
@@ -135,7 +135,7 @@ img {
   text-align: left;
 }
 
-#about h1,p {
+#about h1, h2, p {
   margin-left: 10px;
 }
 
@@ -174,5 +174,21 @@ img {
 }
 
 #skills h1,p {
-    margin-left: 10px;
+  margin-left: 10px;
+}
+
+#skills table {
+  height: 400px;
+  width: 75%;
+  margin: auto auto;
+  text-align: center;
+  border: 2px solid black;
+}
+
+#skills th, td {
+  border: 2px solid black;
+}
+
+#skills #other {
+  visibility: hidden;
 }
