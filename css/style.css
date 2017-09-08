@@ -93,7 +93,7 @@ li a:hover {
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-image: url("...\assets\skyline.jpg");
+  background-image: url("../assets/skyline.jpg");
 }
 
 img {
