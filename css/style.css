@@ -189,6 +189,23 @@ img {
   border: 2px solid black;
 }
 
-#skills #other {
-  visibility: hidden;
+#languages {
+  display: flex;
+}
+
+#ide, #other {
+  display: none;
+}
+
+#buttons {
+  text-align: center;
+}
+
+#buttons button {
+  background-color: white;;
+  border-radius: 50% 50%;
+  width: 15px;
+  height: 15px;
+  margin: 10px 30px;
+  padding: 0 0;
 }

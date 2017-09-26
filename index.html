@@ -12,7 +12,7 @@
     <div id="hcontainer">
     <div id="header">
       <h1>evanho9. </h1><h1 id="blink">|</h1>
-      <script src="js\js.js"></script>
+      <script src="js\htimer.js"></script>
     </div>
       <nav>
         <ul>
@@ -32,18 +32,23 @@
         knowledge and skills.</p>
         <div id="clickables">
           <a href="https://www.facebook.com/evan.ho.7" target="_blank"><img src="assets\facebook.png"></a>
-          <a href="https://github.com/evanho9" target="_blank"><img src="assets\github.png" height="150px" width="150px"></a>
-          <img src="assets\snapcodes.png" height="150px" width="150px">
+          <a href="https://github.com/evanho9" target="_blank"><img src="assets\github.png" height="150pX" width="150pX"></a>
+          <img src="assets\snapcodes.png" height="150pX" width="150pX">
         </div>
       </div>
       <div id="profpicture">
-        <img src="assets\profile.jpg" width="50%" height="400px">
+        <img src="assets\profile.jpg" width="50%" height="400pX">
       </div>
       <div id="projects">
         <h1>projects.</h1>
       </div>
       <div id="skills">
         <h1>skills.</h2>
+        <div id="buttons">
+          <button onclick="show(0)"></button>
+          <button onclick="show(1)"></button>
+          <button onclick="show(2)"></button>
+        </div>
         <div id="languages">
           <table>
             <tr>
@@ -53,13 +58,32 @@
               <th>Expert</th><td></td><td></td><td></td><td></td>
             </tr>
             <tr>
-              <th>Proficient</th><td>x</td><td></td><td></td><td></td>
+              <th>Proficient</th><td>X</td><td></td><td></td><td></td>
             </tr>
             <tr>
-              <th>Familiar</th><td></td><td>x</td><td>x</td><td></td>
+              <th>Familiar</th><td></td><td>X</td><td>X</td><td></td>
             </tr>
             <tr>
-              <th>Beginner</th><td></td><td></td><td></td><td>x</td>
+              <th>Beginner</th><td></td><td></td><td></td><td>X</td>
+            </tr>
+          </table>
+        </div>
+        <div id="ide">
+          <table>
+            <tr>
+              <th></th><th>Eclipse</th><th>Android Studio</th><th>LibGDX</th>
+            </tr>
+            <tr>
+              <th>Expert</th><td>X</td><td></td><td></td>
+            </tr>
+            <tr>
+              <th>Proficient</th><td></td><td>X</td><td>X</td>
+            </tr>
+            <tr>
+              <th>Familiar</th><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <th>Beginner</th><td></td><td><td></td>
             </tr>
           </table>
         </div>
@@ -69,10 +93,10 @@
               <th></th><th>Git</th><th>Hardware</th>
             </tr>
             <tr>
-              <th>Expert</th><td>x</td><td></td>
+              <th>Expert</th><td></td><td></td>
             </tr>
             <tr>
-              <th>Proficient</th><td></td><td>x</td>
+              <th>Proficient</th><td>X</td><td>X</td>
             </tr>
             <tr>
               <th>Familiar</th><td></td><td></td>
@@ -82,6 +106,7 @@
             </tr>
           </table>
         </div>
+        <script src="js\ttimer.js"></script>
       </div>
     </div>
   </body>
