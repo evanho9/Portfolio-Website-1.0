@@ -164,6 +164,24 @@ img {
   margin-left: 10px;
 }
 
+#proj1 {
+  width: 30%;
+  margin-left: 3%;
+  float: left;
+}
+
+#proj2 {
+  width: 30%;
+  margin: 0 2%;
+  float: left;
+}
+
+#website {
+  width: 30%;
+  margin-right: 3%;
+  float: left;
+}
+
 #skills {
   height: 600px;
   width: 100%;
