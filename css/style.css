@@ -162,7 +162,6 @@ img {
 
 #projects {
   width: 100%;
-  margin-top: 50px;
   float: left;
   background-color: black;
   color: white;
@@ -176,28 +175,19 @@ img {
   color: lime;
 }
 
-#proj1 {
+.project {
   width: 20%;
-  margin-left: 3%;
+  height: 20%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
   float: left;
-}
-
-#proj2 {
-  width: 20%;
-  margin: 0 3%;
-  float: left;
-}
-
-#proj3 {
-  width: 20%;
-  margin: 0 3%;
-  float: left;
-}
-
-#proj4 {
-  width: 20%;
-  margin-right: 3%;
-  float: left;
+  min-width: 20%;
+  min-height: 20%;
+  max-width: 20%;
+  max-height: 20%;
+  width: 400px;
+  height: 400px;
 }
 
 #skills {
@@ -239,6 +229,242 @@ img {
 
 #buttons button {
   background-color: white;;
+  border-radius: 50% 50%;
+  width: 15px;
+  height: 15px;
+  margin: 10px 30px;
+  padding: 0 0;
+}html {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: white;
+
+}
+
+body {
+  height: 100%;
+  margin: 0 0;
+  color: black;
+}
+
+#hcontainer {
+  left: 0;
+  top: 0;
+  background-color: white;
+  border-bottom: gray solid 1px;
+  height: 4%;
+  width: 100%;
+  margin: 0 0;
+  position: fixed;
+}
+
+#blink {
+  width: 10%;
+  float: left;
+  margin: 0 0;
+  height: 100%;
+  color: lime;
+}
+
+#header {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 40%;
+  height: 100%;
+  float: left;
+  display: flex;
+}
+
+#header h1 {
+  margin: 0 0;
+  margin-left: 10px;
+}
+
+nav {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  margin: 0 0;
+  height: 100%;
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+  height: 100%;
+  font-size: 20px;
+  color: black;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.active {
+  background-color: black;
+  color: lime;
+  height: 100%;
+}
+
+#topper {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/skyline.jpg");
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#profpicture img {
+  border-radius: 2%;
+  width:25%;
+  height: 25%;
+  float: left;
+  display: block;
+  border: 1px solid black;
+  margin-left: 10%;
+}
+
+#container {
+  margin-top: 50px;
+  height: 90%;
+  width:100%
+  float: left;
+  background-color: white;
+  font-size: 20px;
+}
+
+#map {
+  height: 85%;
+  width: 35%;
+  margin-top: 2%;
+  float: left;
+  border-radius: 2%;
+}
+
+#about {
+  height: 50%;
+  width: 50%;
+  margin: 0;
+  float: left;
+  line-height: 40px;
+  text-align: left;
+  background-color: white;
+}
+
+#about h1, h2, p {
+  margin-left: 10px;
+}
+
+#about p {
+  margin-left: 6%
+}
+
+#clickables img {
+  margin: 10% 5%;
+}
+
+#interests {
+  font-size: 20px;
+  height: 400px;
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+#projects {
+  width: 100%;
+  float: left;
+  background-color: black;
+  color: white;
+}
+
+#projects h1,p {
+  margin-left: 10px;
+}
+
+#projects a {
+  color: lime;
+}
+
+.project {
+  width: 20%;
+  height: 20%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 5%;
+  float: left;
+  min-width: 20%;
+  min-height: 20%;
+  max-width: 20%;
+  max-height: 20%;
+  width: 400px;
+  height: 400px;
+}
+
+#skills {
+  height: 600px;
+  width: 100%;
+  margin: 0 0;
+  float: left;
+  background-color: white;
+  color: black;
+}
+
+#skills h1,p {
+  margin-left: 10px;
+}
+
+#skills table {
+  height: 400px;
+  width: 75%;
+  margin: auto auto;
+  text-align: center;
+  border: 2px solid black;
+}
+
+#skills th, td {
+  border: 2px solid black;
+}
+
+#languages {
+  display: flex;
+}
+
+#ide, #other {
+  display: none;
+}
+
+#buttons {
+  text-align: center;
+}
+
+#buttons button {
+  background-color: white;
   border-radius: 50% 50%;
   width: 15px;
   height: 15px;
