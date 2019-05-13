@@ -10,40 +10,6 @@ body {
   color: black;
 }
 
-#hcontainer {
-  left: 0;
-  top: 0;
-  background-color: white;
-  border-bottom: gray solid 1px;
-  height: 4%;
-  width: 100%;
-  margin: 0 0;
-  position: fixed;
-}
-
-#blink {
-  width: 10%;
-  float: left;
-  margin: 0 0;
-  height: 100%;
-  color: lime;
-}
-
-#header {
-  font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-  width: 40%;
-  height: 100%;
-  float: left;
-  display: flex;
-}
-
-#header h1 {
-  margin: 0 0;
-  margin-left: 10px;
-}
-
 nav {
   width: 50%;
   height: 100%;
@@ -266,7 +232,7 @@ body {
 }
 
 #header {
-  font-size: 20px;
+  font-size: 90%;
   margin-top: 0;
   margin-bottom: 0;
   width: 40%;
@@ -300,16 +266,7 @@ nav ul li {
   float: left;
   width: 25%;
   height: 100%;
-  font-size: 20px;
-  color: black;
-}
-
-nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 5%;
-  text-decoration: none;
+  font-size: 100%;
   color: black;
 }
 
